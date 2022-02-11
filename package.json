@@ -24,11 +24,10 @@
     "validator": "^13.0.0"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "heroku-postbuild": "npm run build",
-    "eject": "react-scripts eject",
-    "dev": "react-scripts start"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
